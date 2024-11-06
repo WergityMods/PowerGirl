@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PWCrack", "PWCrack.csproj", "{A01D956B-63BE-4B06-AB35-27461C92A70A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiBsod", "..\AntiBsod\AntiBsod.vcxproj", "{ECEB6456-0E90-4F17-AC74-A1488FEFE54E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChamsPatcher", "..\ChamsPatcher\ChamsPatcher.vcxproj", "{8A01E9DD-E3BB-4D9A-85FF-9599DC96535A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01D956B-63BE-4B06-AB35-27461C92A70A}.Release|x64.ActiveCfg = Release|x64
+		{A01D956B-63BE-4B06-AB35-27461C92A70A}.Release|x64.Build.0 = Release|x64
+		{ECEB6456-0E90-4F17-AC74-A1488FEFE54E}.Release|x64.ActiveCfg = Release|x64
+		{ECEB6456-0E90-4F17-AC74-A1488FEFE54E}.Release|x64.Build.0 = Release|x64
+		{8A01E9DD-E3BB-4D9A-85FF-9599DC96535A}.Release|x64.ActiveCfg = Release|x64
+		{8A01E9DD-E3BB-4D9A-85FF-9599DC96535A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72DDB99F-586A-40CA-B118-F1D1688D7B38}
+	EndGlobalSection
+EndGlobal

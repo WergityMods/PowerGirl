@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>x64</Platforms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>deps\harmony\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="ArmDot.Client">
+      <HintPath>deps\cheat\ArmDot.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.BrowserSubprocess">
+      <HintPath>deps\cheat\CefSharp.BrowserSubprocess.exe</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.BrowserSubprocess.Core">
+      <HintPath>deps\cheat\CefSharp.BrowserSubprocess.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Core.Runtime">
+      <HintPath>deps\cheat\CefSharp.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.WinForms">
+      <HintPath>deps\cheat\CefSharp.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>deps\cheat\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>deps\cheat\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>deps\cheat\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>deps\cheat\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="powercheattt">
+      <HintPath>deps\cheat\powercheattt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>deps\cheat\System.Management.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
